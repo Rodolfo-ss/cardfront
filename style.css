@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+body {
+    background-color:hsl(221, 100%, 96%);
+    font-family: 'hanken grotesk';
+    height: 100vh;
+    display: flex;
+     justify-content: center;
+    align-items: center;  
+}
+
+.card {
+    border-radius: 30px;
+    display: flex;
+    width: 650px;
+    height: 450px;
+    background: #fff;
+    box-shadow: 0 5px 3px 3px #777;; 
+}
+
+.card .first-part {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 30px;
+    text-align: center;
+    width: 600px;
+    color: #fff;
+}
+
+.card .first-part p {
+    color: hsl(223, 75%, 91%);
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.card .first-part .great {
+    font-size: 30px;
+}
+
+.card .first-part .text {
+    margin: -9px;
+}
+
+.card .first-part .result {
+   padding: 50px;
+   font-size: 20px;
+}
+
+.card .first-part h2 {
+    padding: 30px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+
+.card .first-part h1 {
+    color: hsl(220, 69%, 92%);
+    padding: 45px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.card .second-part {
+    background-color: #fff;
+    border-radius: 0px 30px 30px 0px;
+    text-align: center;
+    color: #fff;
+}
+
+.card .first-part span {
+    color: #fff;
+    font-size: 67px;
+    border-radius: 100%;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    padding: 40px;
+}
+
+
+.card .first-part p {
+    margin: 20px;
+}
+
+.card .second-part h2 {
+    font-size: 20px;
+    margin: 40px;
+    margin-left: -140px;
+}
+
+.card .second-part .text2 {
+    margin: 20px; 
+    padding-bottom: 3px;
+}
+
+
+.card .second-part .text2 p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card .second-part .text2 .react {
+    display: flex;
+    width: 280px;
+    height: 45px;
+    background-color: rgb(248, 232, 235);
+    align-items: center;
+    border-radius: 10px;
+}
+
+.card .second-part .text2 .react h3 {
+    display: flex;
+    color: red;
+    font-size: 15px;
+}
+
+.card .second-part .text2 .react b {
+    color: grey;
+    margin: 5px;
+}
+
+.card .second-part .text2 .react img {
+    margin: 10px;
+}
+
+.card .second-part .text2 .react p {
+    margin-left: 70px;
+    font-weight: 800;
+}
+
+.card .second-part .text2 .memory {
+    padding: 10px;
+    display: flex;
+    width: 260px;
+    height: 24px;
+    background-color: rgb(250, 250, 228);
+    margin: 10px;
+    align-items: center;
+    margin-left: -1px;
+    border-radius: 10px;
+}
+
+.card .second-part .text2 .memory img {
+    margin: 1px;
+}
+
+.card .second-part .text2 .memory p {
+    margin-left: 63px;
+    font-weight: 800;
+}
+
+
+.card .second-part .text2 .memory h3 {
+    margin: 10px;
+    color: rgb(224, 224, 74);
+    font-size: 15px;
+}
+
+.card .second-part .text2 .memory b {
+    color: gray;
+    margin: 5px;
+}
+
+.card .second-part .text2 .verbal {
+    display: flex;
+    width: 280px;
+    height: 45px;
+    background-color: rgb(211, 243, 214);
+    align-items: center;
+    border-radius: 10px;
+}
+
+.card .second-part .text2 .verbal h3 {
+    color: rgb(154, 228, 154);
+    font-size: 15px;
+}
+
+.card .second-part .text2 .verbal b {
+    color: gray;
+    margin: 5px;
+}
+
+.card .second-part .text2 .verbal p {
+    margin-left: 90px;
+    font-weight: 800;
+}
+
+.card .second-part .text2 .verbal img {
+    margin: 10px;
+}
+
+.card .second-part .text2 .visual {
+    display: flex;
+    width: 280px;
+    height: 45px;
+    background-color: rgb(233, 233, 249);
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: -1px;
+}
+
+.card .second-part .text2 .visual h3 {
+    color: rgb(113, 113, 234);
+    font-size: 15px;
+}
+
+.card .second-part .text2 .visual b {
+    color: gray;
+    margin: 5px;
+}
+
+.card .second-part .text2 .visual p {
+    margin-left: 90px;
+    font-weight: 800;
+}
+
+.card .second-part .text2 .visual img {
+    margin: 10px;
+}
+
+.second-part a button {
+    background-color: hsl(224, 30%, 27%);
+    width: 270px;
+    height: 50px;
+    margin-left: -10px;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+}
+
+.second-part a button:hover{
+    transition: 0.6s;
+    background-color: hsl(241, 81%, 54%);
+    border: 1px;
+    cursor:pointer;
+}
+@media (max-width: 600px) {
+    .first-part{
+        height: 100%;
+        padding: 14px;
+        border-radius:20px;
+    }
+
+    body{
+      align-items: flex-start;
+      background-color: #fff;
+    }
+
+    .card{
+        box-shadow: none;
+        flex-direction: column;
+    }
+
+    .second-part{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .second-part h2{
+        padding-left: 150px;
+    }
+
+    .text2{
+        padding-left: 140px;
+    }
+
+  }
+
